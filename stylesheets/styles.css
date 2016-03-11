@@ -364,7 +364,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 legend {
@@ -708,7 +708,7 @@ header p {
   border-radius: 0px 2px 2px 0px;
   padding-right: 10px;
 }
-#banner .button {
+.button {
   border: 1px solid #dba500;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe788), color-stop(100%, #ffce38));
   background: -webkit-linear-gradient(#ffe788, #ffce38);
@@ -1007,4 +1007,14 @@ footer {
     bottom: auto;
     width: auto;
   }
+}
+
+
+.search-field {
+  line-height: 34px;
+  border: 1px solid #dba500;
+  padding: 0 10px;
+}
+.error {
+  color: red;
 }

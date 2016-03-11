@@ -1,0 +1,28 @@
+{
+  "name": "property.cross.angularjs",
+  "homepage": "https://github.com/bi0morph/porperty.cross.angular",
+  "description": "leraning agnular",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angularjs",
+    "propertycross"
+  ],
+  "authors": [
+    "Ruslan Ustyuhov"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0"
+  }
+}
